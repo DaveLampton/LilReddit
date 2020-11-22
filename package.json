@@ -1,0 +1,27 @@
+{
+  "name": "lilreddit",
+  "version": "0.0.1",
+  "description": "Demo - Fullstack React, GraphQL and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaveLampton/LilReddit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaveLampton/LilReddit/issues"
+  },
+  "homepage": "https://github.com/DaveLampton/LilReddit#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.9",
+    "nodemon": "^2.0.6",
+    "typescript": "^4.1.2"
+  }
+}
